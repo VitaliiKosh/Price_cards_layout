@@ -1,21 +1,21 @@
 .price-cards {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .price-card {
-  width: 380px;
-  height: 770px;
-  background-color: #334247;
-  text-align: center;
   margin-right: 18px;
   position: relative;
   overflow: hidden;
   padding-top: 3px;
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  text-align: center;
 }
 .price-card:last-child {
   margin-right: 0;
@@ -25,10 +25,10 @@
   height: 130px;
 }
 .price-card__title > h3 {
+  margin: auto;
   font-size: 20px;
   font-weight: 300;
   line-height: 24.38px;
-  margin: auto;
 }
 .price-card__title > h3::first-line {
   font-size: 35px;
@@ -36,15 +36,15 @@
   line-height: 42.67px;
 }
 .price-card__price {
-  height: 105px;
-  background-color: #5bb189;
   display: flex;
   margin-top: 0;
+  height: 105px;
+  background-color: #5bb189;
 }
 .price-card__price > p {
+  margin: auto;
   font-size: 55px;
   font-weight: 700;
-  margin: auto;
 }
 .price-card__description {
   width: 327px;
@@ -54,18 +54,18 @@
   line-height: 18px;
 }
 .price-card__options-list {
-  text-align: start;
   margin-bottom: 39px;
   padding-left: 0;
+  text-align: start;
 }
 .price-card__options-list > li {
   display: block;
+  position: relative;
   height: 50px;
   font-size: 15px;
   line-height: 18px;
   padding-left: 59px;
   line-height: 50px;
-  position: relative;
   cursor: pointer;
 }
 .price-card__options-list > li:hover {
@@ -76,10 +76,10 @@
 }
 .price-card__options-list > li::before {
   content: "";
+  position: absolute;
   width: 15px;
   height: 13px;
   background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png) center no-repeat;
-  position: absolute;
   left: 22px;
   top: 19px;
 }
@@ -104,15 +104,15 @@
 }
 .price-card__promotion {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 147px;
-  height: 25px;
-  background-color: #dc3f45;
-  transform: rotate(45deg);
   position: absolute;
   left: 264px;
   top: -1.5px;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(45deg);
+  width: 147px;
+  height: 25px;
+  background-color: #dc3f45;
   font-size: 14px;
   font-weight: 700;
 }
@@ -127,6 +127,9 @@
 
 * {
   box-sizing: border-box;
+}
+
+html {
   color: rgb(255, 255, 255);
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
