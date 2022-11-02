@@ -1,11 +1,3 @@
-.blue-background {
-  background-color: rgb(58, 107, 165);
-}
-
-.orange-background {
-  background-color: rgb(236, 99, 42);
-}
-
 .price-cards {
   width: 100vw;
   height: 100vh;
@@ -18,7 +10,7 @@
 .price-card {
   width: 380px;
   height: 770px;
-  background-color: rgb(51, 66, 71);
+  background-color: #334247;
   text-align: center;
   margin-right: 18px;
   position: relative;
@@ -45,8 +37,9 @@
 }
 .price-card__price {
   height: 105px;
-  background-color: rgb(91, 177, 137);
+  background-color: #5bb189;
   display: flex;
+  margin-top: 0;
 }
 .price-card__price > p {
   font-size: 55px;
@@ -79,7 +72,7 @@
   filter: brightness(1.4);
 }
 .price-card__options-list > li:nth-child(odd) {
-  background-color: rgb(42, 52, 56);
+  background-color: #2a3438;
 }
 .price-card__options-list > li::before {
   content: "";
@@ -100,7 +93,7 @@
   width: 154px;
   height: 40px;
   border-radius: 20px;
-  background-color: rgb(91, 177, 137);
+  background-color: #5bb189;
   border: none;
   font-size: 14px;
   font-weight: 400;
@@ -115,7 +108,7 @@
   align-items: center;
   width: 147px;
   height: 25px;
-  background-color: rgb(220, 63, 69);
+  background-color: #dc3f45;
   transform: rotate(45deg);
   position: absolute;
   left: 264px;
@@ -125,11 +118,11 @@
 }
 
 .blue-background {
-  background-color: rgb(58, 107, 165);
+  background-color: #3a6ba5;
 }
 
 .orange-background {
-  background-color: rgb(236, 99, 42);
+  background-color: #ec632a;
 }
 
 * {

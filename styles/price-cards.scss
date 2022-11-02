@@ -10,7 +10,7 @@
 .price-card {
   width: 380px;
   height: 770px;
-  background-color: $base-background;
+  background-color: $main-price-cards-background;
   text-align: center;
   margin-right: 18px;
   position: relative;
@@ -36,8 +36,9 @@
   }
   &__price {
     height: 105px;
-    background-color: rgba(91, 177, 137, 1);
+    background-color: $basic-price-background;
     display: flex;
+    margin-top: 0;
     & > p {
       font-size: 55px;
       font-weight: 700;
@@ -68,7 +69,7 @@
         filter: brightness(1.4);
       }
       &:nth-child(odd) {
-        background-color: $second-backgound;
+        background-color: $secondary-price-cards-backgound;
       }
       &::before {
         content: "";
@@ -94,7 +95,7 @@
     width: 154px;
     height: 40px;
     border-radius: 20px;
-    background-color: rgba(91, 177, 137, 1);
+    background-color: $basic-price-background;
     border: none;
     font-size: 14px;
     font-weight: 400;
@@ -110,7 +111,7 @@
     align-items: center;
     width: 147px;
     height: 25px;
-    background-color: rgba(220, 63, 69, 1);
+    background-color: $special-offer-background;
     transform: rotate(45deg);
     position: absolute;
     left: 264px;
