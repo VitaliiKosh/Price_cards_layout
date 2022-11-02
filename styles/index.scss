@@ -1,0 +1,14 @@
+@import "variables.scss";
+@import "price-cards.scss";
+@import "common.scss";
+
+* {
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #141b1c;
+}
