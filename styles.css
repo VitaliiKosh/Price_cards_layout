@@ -97,6 +97,7 @@
   border: none;
   font-size: 14px;
   font-weight: 400;
+  color: #ffffff;
   cursor: pointer;
 }
 .price-card__order-btn:hover {
@@ -130,7 +131,7 @@
 }
 
 html {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
 }
