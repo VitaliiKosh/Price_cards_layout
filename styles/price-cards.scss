@@ -65,7 +65,7 @@
     padding-left: 0;
     text-align: start;
 
-    & > li {
+    &_element {
       display: block;
       position: relative;
       height: 50px;
@@ -101,6 +101,7 @@
     border: none;
     font-size: 14px;
     font-weight: 400;
+    line-height: 40px;
     color: #ffffff;
     cursor: pointer;
 

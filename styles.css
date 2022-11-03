@@ -59,7 +59,7 @@
   padding-left: 0;
   text-align: start;
 }
-.price-card__options-list > li {
+.price-card__options-list_element {
   display: block;
   position: relative;
   height: 50px;
@@ -69,13 +69,13 @@
   line-height: 50px;
   cursor: pointer;
 }
-.price-card__options-list > li:hover {
+.price-card__options-list_element:hover {
   filter: brightness(1.4);
 }
-.price-card__options-list > li:nth-child(odd) {
+.price-card__options-list_element:nth-child(odd) {
   background-color: #2a3438;
 }
-.price-card__options-list > li .price-card__icon {
+.price-card__options-list_element .price-card__icon {
   position: absolute;
   width: 15px;
   height: 13px;
@@ -90,6 +90,7 @@
   border: none;
   font-size: 14px;
   font-weight: 400;
+  line-height: 40px;
   color: #ffffff;
   cursor: pointer;
 }
