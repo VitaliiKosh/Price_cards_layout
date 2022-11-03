@@ -81,27 +81,14 @@
         background-color: $secondary-price-cards-backgound;
       }
 
-      &::before {
-        content: "";
+      .price-card__icon {
         position: absolute;
         width: 15px;
         height: 13px;
-        background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png)
-          center no-repeat;
         left: 22px;
         top: 19px;
       }
     }
-  }
-
-  &:nth-child(2) li::before {
-    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png)
-      center no-repeat;
-  }
-
-  &:nth-child(3) li::before {
-    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png)
-      center no-repeat;
   }
 
   &__order-btn {
