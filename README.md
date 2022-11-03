@@ -1,6 +1,6 @@
 # The second project of the Gromcode Univercity course: Price cards layout.
 
-### [Project link](https://github.com/VitaliiKosh/Second_project-Price_cards_layout)
+### [Project link](http://127.0.0.1:5500/index.html)
 
 ### The tech stack is:
 

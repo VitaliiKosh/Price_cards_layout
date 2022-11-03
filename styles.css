@@ -112,11 +112,11 @@
   font-weight: 700;
 }
 
-.blue-background {
+.business-background {
   background-color: #3a6ba5;
 }
 
-.orange-background {
+.webshop-background {
   background-color: #ec632a;
 }
 
@@ -126,7 +126,6 @@
 
 html {
   color: #ffffff;
-  /*  font-size: 15px;*/
   font-family: "Montserrat", sans-serif;
 }
 
