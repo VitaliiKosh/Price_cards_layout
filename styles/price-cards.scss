@@ -41,15 +41,13 @@
 
   &__price {
     display: flex;
-    margin-top: 0;
+    align-items: center;
+    justify-content: center;
     height: 105px;
     background-color: $basic-price-background;
-
-    & > p {
-      margin: auto;
-      font-size: 55px;
-      font-weight: 700;
-    }
+    margin: auto;
+    font-size: 55px;
+    font-weight: 700;
   }
 
   &__description {
@@ -125,8 +123,8 @@
   &__promotion {
     display: flex;
     position: absolute;
-    left: 264px;
-    top: -1.5px;
+    left: 263px;
+    top: 31px;
     justify-content: center;
     align-items: center;
     transform: rotate(45deg);
