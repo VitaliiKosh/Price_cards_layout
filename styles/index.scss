@@ -1,6 +1,5 @@
 @import "variables.scss";
 @import "price-cards.scss";
-@import "common.scss";
 
 * {
   box-sizing: border-box;
@@ -13,4 +12,16 @@ html {
 
 body {
   background-color: #141b1c;
+}
+
+.basic-background {
+  background-color: $basic-price-background;
+}
+
+.business-background {
+  background-color: $business-price-background;
+}
+
+.webshop-background {
+  background-color: $webshop-price-background;
 }

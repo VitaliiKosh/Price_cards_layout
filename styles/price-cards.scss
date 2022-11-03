@@ -23,7 +23,6 @@
     display: flex;
     flex-direction: column;
     height: 130px;
-    align-items: center;
     justify-content: center;
 
     &_name {
@@ -46,7 +45,6 @@
     align-items: center;
     justify-content: center;
     height: 105px;
-    background-color: $basic-price-background;
     margin: auto;
     font-size: 55px;
     font-weight: 700;
@@ -97,7 +95,6 @@
     width: 154px;
     height: 40px;
     border-radius: 20px;
-    background-color: $basic-price-background;
     border: none;
     font-size: 14px;
     font-weight: 400;

@@ -22,7 +22,6 @@
   display: flex;
   flex-direction: column;
   height: 130px;
-  align-items: center;
   justify-content: center;
 }
 .price-card__title_name {
@@ -42,7 +41,6 @@
   align-items: center;
   justify-content: center;
   height: 105px;
-  background-color: #5bb189;
   margin: auto;
   font-size: 55px;
   font-weight: 700;
@@ -86,7 +84,6 @@
   width: 154px;
   height: 40px;
   border-radius: 20px;
-  background-color: #5bb189;
   border: none;
   font-size: 14px;
   font-weight: 400;
@@ -112,14 +109,6 @@
   font-weight: 700;
 }
 
-.business-background {
-  background-color: #3a6ba5;
-}
-
-.webshop-background {
-  background-color: #ec632a;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -131,6 +120,18 @@ html {
 
 body {
   background-color: #141b1c;
+}
+
+.basic-background {
+  background-color: #5bb189;
+}
+
+.business-background {
+  background-color: #3a6ba5;
+}
+
+.webshop-background {
+  background-color: #ec632a;
 }
 
 /*# sourceMappingURL=styles.css.map */
