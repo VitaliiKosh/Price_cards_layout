@@ -122,15 +122,15 @@ body {
   background-color: #141b1c;
 }
 
-.basic-background {
+.price-card__price_green {
   background-color: #5bb189;
 }
 
-.business-background {
+.price-card__price_blue {
   background-color: #3a6ba5;
 }
 
-.webshop-background {
+.price-card__price_orange {
   background-color: #ec632a;
 }
 

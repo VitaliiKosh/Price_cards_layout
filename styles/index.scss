@@ -6,22 +6,22 @@
 }
 
 html {
-  color: #ffffff;
+  color: $the-main-text-color;
   font-family: "Montserrat", sans-serif;
 }
 
 body {
-  background-color: #141b1c;
+  background-color: $body-background-color;
 }
 
-.basic-background {
+.price-card__price_green {
   background-color: $basic-price-background;
 }
 
-.business-background {
+.price-card__price_blue {
   background-color: $business-price-background;
 }
 
-.webshop-background {
+.price-card__price_orange {
   background-color: $webshop-price-background;
 }
