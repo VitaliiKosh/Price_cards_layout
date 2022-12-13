@@ -1,6 +1,6 @@
 # Price cards layout
 
-### [Site link](https://vitaliikosh.github.io/Second_project-Price_cards_layout/)
+### [Site link](https://vitaliikosh.github.io/Price_cards_layout/)
 
 ### [Project link on GitHub](https://github.com/VitaliiKosh/Second_project-Price_cards_layout)
 
