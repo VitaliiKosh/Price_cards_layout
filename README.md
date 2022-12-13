@@ -2,7 +2,7 @@
 
 ### [Site link](https://vitaliikosh.github.io/Price_cards_layout/)
 
-### [Project link on GitHub](https://github.com/VitaliiKosh/Second_project-Price_cards_layout)
+### [Project link on GitHub](https://github.com/VitaliiKosh/Price_cards_layout)
 
 ### Layout support only desktop (from-to-1400px) version
 
